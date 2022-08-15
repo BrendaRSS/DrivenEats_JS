@@ -154,14 +154,11 @@ function nameSobremesa(nome){
 let mensagemWpp= ""
 
 function executarMensagem(){
-    mensagemWpp=`Olá, gostaria de fazer o pedido:
-    - Prato: ${nameAlmocoEscolhido}
-    - Bebida: ${nameBebidaEscolhida}
-    - Sobremesa: ${nameSobremesaEsolhida} 
-    Total : R$ ${TotalPedido.toFixed(2).replace(".",",")}`;
+    mensagemWpp=`Olá, gostaria de fazer o pedido:\n- Prato: ${nameAlmocoEscolhido}\n- Bebida: ${nameBebidaEscolhida}\n- Sobremesa: ${nameSobremesaEsolhida} \nTotal : R$ ${TotalPedido.toFixed(2).replace(".",",")}`;
     const msgCodificada = encodeURIComponent(mensagemWpp);
-    const linkWhatsapp= `https://wa.me/5583993170902?text=${mensagemWpp}`;
+    const linkWhatsapp= `https://wa.me/5583993170902?text=${msgCodificada}`;
     window.open(linkWhatsapp);
     console.log(linkWhatsapp);
+    console.log(msgCodificada);
 }
 
