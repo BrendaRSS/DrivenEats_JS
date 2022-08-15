@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrivenEats</title>
+</head>
+<body>
+ <!-- TOPO DO DRIVEN EATS-->
+
+ <div class="top">
+    <p class="righteous"> <span class="app_name"> DrivenEats </span> <br>
+   <span class="subtitulo"> Sua comida em 6 minutos </span> </p>
+ </div>
+
+ <!-- FIM DA DIV TOP = FIM DO TOPO DO DRIVEN EATS-->
+    
+ <!-- MENU DO DRIVEN EATS-->
+
+ <div class="menu"> <!-- DIV MENU -->
+
+    <div class="options_dish"> <!-- DIV COM O TÍTULO E PRATOS-->
+        <div class="order">
+           <p class="order_titulo righteous"> Primeiro, seu prato</p>
+        </div> <!-- FIM DA DIV ORDER-->
+        <div class="food_dish">
+           <div class="dish1" onclick="pedidoAlmoco('.dish1'); checkAlmoco('.iona1'); almocoValor('14.90'); nameAlmoco('Frango Grelhado')"> <img src="prato.jpg"/> <p> <span class="string1"> Frango Grelhado </span><br> <span class="string2">Arroz e batata</span><br> <span class="string3">R$ 14,90 </span></p> <svg class="iona1 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="dish2" onclick="pedidoAlmoco('.dish2'); checkAlmoco('.iona2'); almocoValor('34.90'); nameAlmoco('Polvo Refogado')"> <img src="lula.jpg"/> <p> <span class="string1"> Polvo Refogado </span><br> <span class="string2">Uma porção de lula </span><br> <span class="string3">R$ 34,90 </span></p> <svg class="iona2 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="dish3" onclick="pedidoAlmoco('.dish3'); checkAlmoco('.iona3'); almocoValor('24.90'); nameAlmoco('Salada Agridoce')"> <img src="salada.jpg"/> <p> <span class="string1"> Salada Agridoce </span><br> <span class="string2">Salada e manga </span><br> <span class="string3">R$ 24,90 </span></p> <svg class="iona3 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="dish4" onclick="pedidoAlmoco('.dish4'); checkAlmoco('.iona4'); almocoValor('44.90'); nameAlmoco('Espaguete')"> <img src="espaguete.jpg"/> <p> <span class="string1">Espaguete</span><br> <span class="string2">Molho branco </span><br> <span class="string3">R$ 44,90 </span></p> <svg class="iona4 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           
+        </div> <!-- FIM DA DIV FOOD-->
+    </div> <!--FIM DA DIV OPTIONS-->
+
+    <div class="options_drinks"> <!-- DIV COM O TÍTULO E BEBIDAS-->
+        <div class="order">
+           <p class="order_titulo righteous"> Agora, sua bebida </p>
+        </div> <!-- FIM DA DIV ORDER-->
+        <div class="food_drinks">
+           <div class="drinks1" onclick="pedidoBebida('.drinks1'); checkBebida('.iond1'); bebidaValor('4.90'); nameBebida('Coca latinha')"> <img src="coca.jpg"/> <p> <span class="string1"> Coca latinha </span><br> <span class="string2"> Lata 350ml </span><br> <span class="string3"> R$ 4,90 </span></p> <svg class="iond1 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="drinks2" onclick="pedidoBebida('.drinks2'); checkBebida('.iond2'); bebidaValor('6.90'); nameBebida('H2OH')"> <img src="https://1.bp.blogspot.com/-uIhgx_pwzxI/VeSj7zByuyI/AAAAAAAAFGs/Ltsbzt2yLXk/w1200-h630-p-k-no-nu/H20H.png"/> <p> <span class="string1"> H2OH </span><br> <span class="string2"> garrafa 500ml </span><br> <span class="string3"> R$ 6,90 </span></p> <svg class="iond2 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="drinks3" onclick="pedidoBebida('.drinks3'); checkBebida('.iond3'); bebidaValor('5.90'); nameBebida('Suco')"> <img src="https://http2.mlstatic.com/D_NQ_NP_686351-MLB32094901101_092019-O.jpg"/> <p> <span class="string1"> Suco </span><br> <span class="string2"> Suco Natural one </span><br> <span class="string3"> R$ 5,90 </span></p> <svg class="iond3 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="drinks4" onclick="pedidoBebida('.drinks4'); checkBebida('.iond4'); bebidaValor('3.90'); nameBebida('Água mineral')"> <img src="https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2021/12/15/881054/20211216085102377436e.jpeg"/> <p> <span class="string1"> Água mineral </span><br> <span class="string2"> Garrafinha 500ml </span><br> <span class="string3"> R$ 3,90 </span></p> <svg class="iond4 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+        </div> <!-- FIM DA DIV FOOD-->
+    </div> <!--FIM DA DIV OPTIONS-->
+
+    <div class="options_desserts"> <!-- DIV COM O TÍTULO E SOBREMESAS-->
+        <div class="order">
+           <p class="order_titulo righteous"> Por fim, sua sobremesa </p>
+        </div> <!-- FIM DA DIV ORDER-->
+        <div class="food_desserts">
+           <div class="desserts1" onclick="pedidoSobremesa('.desserts1'); checkSobremesa('.ions1'); SobremesaValor('7.90'); nameSobremesa('Pudim')"> <img src="pudim.jpg"/> <p> <span class="string1"> Pudim </span><br> <span class="string2"> Apenas pudim </span><br> <span class="string3"> R$ 7,90 </span></p> <svg class="ions1 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="desserts2" onclick="pedidoSobremesa('.desserts2'); checkSobremesa('.ions2'); SobremesaValor('32.90'); nameSobremesa('Bolo vulcão')"> <img src="https://i.ytimg.com/vi/kIWlErThGYQ/maxresdefault.jpg"/> <p> <span class="string1"> Bolo vulcão</span><br> <span class="string2"> chocolate misto </span><br> <span class="string3"> R$ 32,90 </span></p> <svg class="ions2 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="desserts3" onclick="pedidoSobremesa('.desserts3'); checkSobremesa('.ions3'); SobremesaValor('29.90'); nameSobremesa('Bolo de cenoura')"> <img src="https://midias.agazeta.com.br/2022/02/16/bolo-de-cenoura-com-cobertura-de-chocolate-702231.jpg"/> <p> <span class="string1"> Bolo de cenoura </span><br> <span class="string2"> cenoura e chocolate </span><br> <span class="string3"> R$ 29,90 </span></p> <svg class="ions3 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+           <div class="desserts4" onclick="pedidoSobremesa('.desserts4'); checkSobremesa('.ions4'); SobremesaValor('9.90'); nameSobremesa('Mousse')"> <img src="https://vitat.com.br/central/Content/handlers/Receita.jpg?id=86074&tipo=r&default=s"/> <p> <span class="string1"> Mousse </span><br> <span class="string2"> maracujá </span><br> <span class="string3"> R$ 9,90 </span></p> <svg class="ions4 inativo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z"/></svg></div>
+        </div> <!-- FIM DA DIV FOOD-->
+    </div> <!--FIM DA DIV OPTIONS-->
+
+ </div> <!-- FIM DA DIV MENU-->
+
+ <!--FIM DO MENU DO DRIVEN EATS-->
+
+
+ <!-- BARRA INFERIOR DO DRIVEN EATS :-->
+
+ <div class="bottom_bar"> 
+    <div class="finalize_order">
+        <p class="text_bottom"> Selecione os 3 ítens <br> para fechar o pedido </p>
+    </div> <!-- FIM DA DIV FINALIZE_ORDER-->
+    <div class="finalize_order2 inativo" onclick="clickBotaoAtivo(); somaTotal()">
+      <p class="text_bottom2"> Fechar pedido </p>
+  </div><!-- FIM DA DIV FINALIZE_ORDER2-->
+ </div> <!-- FIM DA DIV BOTTOM_BAR-->
+
+ <!-- FIM DA BARRA INFERIOR DO DRIVEN EATS-->
+
+ <!-- PAINEL QUE SURGE AO FINALIZAR O PEDIDO-->
+<div class="painel inativo">
+   <div class="conteudoPainel">
+      <div class="confirm"> Confirme seu pedido </div>
+      <div class="valorDish flexOn"> <div class="nomePrato"></div> <div class="valorPrato"> deveria ter algo aqui</div></div>
+      <div class="valorDrink flexOn"> <div class="nomeBebida"></div> <div class="valorBebida"></div></div>
+      <div class="valorDessert flexOn"> <div class="nomeSobremesa"></div> <div class="valorSobremesa"></div></div>
+      <div class="totalPedido flexOn"><div class="totalFinal">TOTAL</div><div class="valorTotal"></div></div>
+      <div class="finishOrder flexOn" onclick="executarMensagem()">Tudo certo, pode pedir!</div>
+      <div class="cancelar">cancelar</div>
+   </div> <!-- FIM DA DIV conteudoPainel-->
+</div> <!-- FIM DA DIV painel-->
+
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,459 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.righteous{
+    font-family: 'Righteous', cursive;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+/* TOPO DO DRIEN EATS */
+.top {
+    background-color: 
+    rgba(207, 43, 43, 1);
+    height: 92px;
+    width: 100vw;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 21px;
+    padding-bottom: 18px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    z-index: 1;
+    
+}
+
+.app_name{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54.63px;
+  letter-spacing: -1.2% ;
+}
+
+.subtitulo{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+/* MENU EATS */
+
+.menu{
+   background-color: #E5E5E5;
+   height: 850px;
+   width: 100vw;
+   margin-top: 92px;
+   margin-bottom: 92px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 0;
+}
+
+.menu > div{
+    width: 414px;
+}
+
+.options_dish {
+    height: 270px;
+    margin-top: 31px;
+}
+
+.options_drinks{
+    height: 255px;  
+}
+
+.options_desserts{
+     height: 250px;  
+     margin-bottom: 16px;
+}
+
+.order {
+    height: 25px;
+    width: 320px;
+}
+
+.order_titulo{
+  color: 
+    rgba(51, 51, 51, 1);
+  weight: 400;
+  font-size: 26px;
+  line-height: 32.28px;
+  letter-spacing: 1.8% ;
+}
+
+.food_dish {
+    background-color:  #E5E5E5;
+    height: 235px;
+    width: 100%;
+    margin-top: 17px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll; 
+}
+
+.food_dish div{
+    background-color: 
+    rgba(255, 255, 255, 1);
+    height: 216px;
+    width: 172px;
+    margin-right: 16px;
+    border-radius: 9px;
+    filter: drop-shadow(0px 0px 5px rgb(218, 215, 215));
+    position: relative;
+}
+
+.food_dish img{
+    height: 87px;
+    width: 144px;
+    border-radius: 4px;
+    margin: 18px 8px 14px;
+}
+
+.food_dish svg{
+    fill: rgba(50, 183, 47, 1);
+    height: 20px;px;
+    width: 20px; 
+    position: absolute;
+    top: 175px;
+    right: 10px;
+}
+
+.food_drinks {
+    background-color:  #E5E5E5;
+    height: 225px;
+    width: 100%;
+    display: flex;
+    margin-top: 17px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.food_drinks div{
+    background-color: 
+    rgba(255, 255, 255, 1);
+    height: 202px;
+    width: 172px;
+    margin-right: 16px;
+    border-radius: 9px;
+    filter: drop-shadow(0px 0px 5px rgb(218, 215, 215));
+    position: relative;
+}
+
+.food_drinks img{
+    height: 87px;
+    width: 144px;
+    margin: 18px 8px 13px;
+    border-radius: 4px;
+}
+
+.food_drinks svg{
+    fill: rgba(50, 183, 47, 1);
+    height: 20px;px;
+    width: 20px; 
+    position: absolute;
+    top: 160px;
+    right: 10px;
+}
+
+.food_desserts {
+    background-color:  #E5E5E5;
+    height: 225px;
+    width: 100%;
+    display: flex;
+    margin-top: 17px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.food_desserts div{
+    background-color: 
+    rgba(255, 255, 255, 1);
+    height: 197px;
+    width: 172px;
+    margin-right: 16px;
+    border-radius: 9px;
+    filter: drop-shadow(0px 0px 5px rgb(218, 215, 215));
+    position: relative;
+}
+
+.food_desserts img{
+    height: 82px;
+    width: 144px;
+    margin: 13px 10px 7px 10px;
+    border-radius: 4px;
+}
+
+.food_desserts svg{
+    fill: rgba(50, 183, 47, 1);
+    height: 20px;px;
+    width: 20px; 
+    position: absolute;
+    top: 160px;
+    right: 10px;
+}
+
+.string1{
+    color: rgba(51, 51, 51, 1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding-left: 15px;
+}
+
+.string2{
+    color: rgba(166, 166, 166, 1);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17.58px;
+    padding-left: 14px;
+}
+
+.string3{
+    color: 
+    rgba(0, 0, 0, 1);
+    font-weight:400;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding-left: 14px;
+}
+
+/* BARRA INFERIOR DO DRIVEN EATS */
+
+.bottom_bar{
+
+    background-color: rgba(255, 255, 255, 1);
+    height: 92px;
+    width: 100vw;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    z-index: 1;
+}
+
+.finalize_order{
+    background-color: rgba(203, 203, 203, 1);
+    height: 61px;
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align:  Center;
+    padding-top: 8px;
+}
+
+.text_bottom{
+    color: 
+    rgba(255, 255, 255, 1);
+    weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 1.8%;
+   
+}
+
+/* CLASSES USADAS COMO SELETOR DOS PEDIDOS */
+
+.escolhido{
+    border: 5px solid rgba(50, 183, 47, 1);
+}
+
+.button_finish_green{
+    background-color: rgba(50, 183, 47, 1);
+
+}
+
+/* BOTÃO INFERIOR NO DRIVENEATS QUE APARECE APÓS SELEÇÃO DO PEDIDO */
+
+.finalize_order2{
+    background-color: rgba(50, 183, 47, 1);
+    height: 61px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding-top: 15px;  
+}
+
+.text_bottom2{
+    color: 
+    rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 23.44px;
+    letter-spacing: 1.8%;  
+    text-align: center; 
+}
+
+.inativo{
+    display: none;
+}
+
+.flexLigado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ESTILO VAZIO SÓ PARA FAZER O CHECK SUMIR */
+
+.icon{
+
+}
+
+/* PAINEL COM O RESUMO DO PEDIDO*/
+
+.painel{
+    width: 100vw;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.conteudoPainel{
+    width: 377px;
+    height: 353px;
+    border-radius: 9px;
+    background-color: rgba(80, 208, 116, 1);
+    filter: drop-shadow(0px 0px 6px #000);
+    padding-top: 21px;
+    padding-bottom: 5px;
+}
+
+.conteudoPainel div {
+    font-family: 'Roboto Slab', serif;
+    padding-right: 20px;
+    margin-bottom: 11px;
+}
+
+.flexOn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.confirm{
+    font-family: 'Roboto Slab', serif;
+    color: 
+    rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25.80px;  
+    text-align: center; 
+    height: 30px;
+}
+
+.valorDish, .valorDrink, .valorDessert, .totalPedido{
+    font-family: 'Roboto Slab', serif;
+    color: #FFFFFF;;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.80px;
+    letter-spacing: 1.8%;  
+    text-align: right; 
+}
+
+.nomePrato, .nomeBebida, .nomeSobremesa, .totalFinal{
+    font-family: 'Roboto Slab', serif;
+    color: #FFFFFF;;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.80px;
+    letter-spacing: 1.8%;  
+    text-align: left; 
+    margin-left: 20px;
+
+}
+
+.finishOrder{
+    font-family: 'Roboto Slab', serif;
+    color: 
+    rgba(80, 208, 116, 1);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25.80px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 100px;
+    margin-left: 22px;
+    margin-right: 22px;
+    padding-left: 20px;
+}
+
+.linkwpp{
+    color: rgba(80, 208, 116, 1);
+    text-decoration: none;
+}
+
+.cancelar{
+    font-family: 'Roboto Slab', serif;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.4px;
+    text-align: center;
+}
+
+/* MOBILE */
+
+@media (max-width: 614px){
+   
+    .topo{
+        width: 100vw;
+        margin: 0 auto;
+        position: fixed;
+        top: 0; 
+    }
+
+    .menu{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 19px;
+        padding-top: 31px;
+        padding-bottom: 16px;
+    }
+
+   .menu > div {
+       width: 100%;
+       margin: 0 auto;
+   }
+  
+   .order {
+       height: 25px;
+       width: 100%
+}
+
+   .food_dish::-webkit-scrollbar {
+    width: 0px;
+    }
+
+   .food_drinks::-webkit-scrollbar {
+    width: 0px;
+    }
+
+   .food_desserts::-webkit-scrollbar {
+     width: 0px;
+    }
+
+}
